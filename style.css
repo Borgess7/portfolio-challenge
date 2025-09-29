@@ -38,12 +38,12 @@ body {
 div.container {
     background-color: hsl(0, 0%, 12%);
     border-radius: 7px;
-    width: 300px;
+    width: 250px;
     height: 70%;
     padding: 27px;
     margin: 0px auto;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    margin-top: 10%;
+    margin-bottom: 15%;
     padding-bottom: 0px;
     
 }
