@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*
+## Colors
+
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:hsl(0, 0%, 8%);
+}
+
+div.container {
+    position: absolute;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 7px;
+    height: 70%;
+    width: 60%;
+    padding: 27px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.text {
+    text-align: center;
+    color: white;
+}
+
+div.text > h1 {
+    font-weight: 500;
+}
+
+div.text > h3 {
+    color: hsl(75, 94%, 57%);
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+div.text > p {
+    font-weight: 300;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+div.attribution {
+
+}
+
+menu#itens {
+    margin-top: 7px;
+    padding: 10px;
+    width: auto;
+}
+
+menu > ul {
+    padding: 0px;
+}
+
+menu > ul > li {
+    list-style: none;
+    
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 17px;
+    margin: 17px;
+    border-radius: 9px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    transition: 0.3s;
+}
+
+menu > ul > li > a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: 0.3s;
+}
