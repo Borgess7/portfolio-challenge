@@ -129,4 +129,12 @@ menu > ul > li > a:hover {
         height: auto;
         margin-top: 7%;
     }
+
+    div.attribution {
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1rem;
+    }
 }
